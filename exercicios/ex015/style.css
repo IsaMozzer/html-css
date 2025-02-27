@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(207, 215, 248);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(24, 46, 88);
+}
+
+h2{
+    color: rgb(96, 84, 140);
+}
+
+p{
+    color: rgb(0, 0, 0);
+}

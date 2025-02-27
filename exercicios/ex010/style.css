@@ -1,0 +1,46 @@
+body{
+    background-color: #36494a;
+    
+}
+
+img {
+    width: 240px; /* Largura da imagem */
+    height: 250px; /* Altura da imagem */
+    border-radius: 50%; /* Faz a imagem ficar redonda */  
+}
+
+h1 {
+    color: rgb(255, 234, 247);
+}
+
+h2{
+    color: rgb(134, 194, 194);
+}
+
+p{
+    color:rgb(255, 255, 255);
+    background-color:#203f41c8;
+    display: inline;
+}
+
+.icon img {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    border-radius: 50%; /* Faz a imagem ficar redonda */     
+}
+
+li {
+    color: rgb(221, 221, 216);
+    background-color:#203f41c8;
+    display: inline; 
+}
+
+a {
+    color: #00FF00; /* Cor verde para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    color: #ff0000; /* Cor amarela para os links quando o mouse está sobre eles */
+    text-decoration: underline; /* sublinhado qnd passa o mouse */
+}
