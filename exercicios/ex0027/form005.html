@@ -6,15 +6,38 @@
     <title>CHECKBOX E RADIOBUTTON</title>
 </head>
 <body>
+    <form action="cadastro.php" method="get">
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="imasc" value="M">
+        <label for="imasc">Masculino</label>
+
+        <input type="radio" name="sexo" id="ifem"  value="F">
+        <label for="ifem">Feminino</label>
+
+    </fieldset>
     <fieldset>
         <legend>Cores Favoritas</legend>
-        in
 
+        <input type="checkbox" name="azul" id="iazul"> 
+        <label for="iazul">Azul</label> <br>
+
+        <input type="checkbox" name="verm" id="iverm"> 
+        <label for="iverm">Vermelho</label> <br>
+
+
+        <input type="checkbox" name="ver" id="iver"> 
+        <label for="iver">Verde</label> <br>
+
+
+        <input type="checkbox" name="ama" id="iama"> 
+        <label for="iama">Amarelo</label><br>
     </fieldset>
     <p>
         <input type="submit" value="ENVIAR">
-        <input type="submit" value="LIMPAR">
+        <input type="reset" value="LIMPAR">
     </p>
+    </form>
 
 </body>
 </html>
