@@ -3,5 +3,6 @@
 /* Config para  aparelho deitado (lendscape) */
 
 body{
-    background-color: rgb(101, 0, 105);
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
