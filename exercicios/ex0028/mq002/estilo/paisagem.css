@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* Config para  aparelho deitado (lendscape) */
+
+body{
+    background-color: rgb(101, 0, 105);
+}
