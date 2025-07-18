@@ -1,8 +1,67 @@
 @charset "UFT-8";
-
 /*todas as demais midias*/
 
+
+/*Typical devices breackpoint
+--------------------------------
+Celular pequeno até 480px
+Celular padarao até 767px
+Tablet 768px - 1024px
+Pc 1025px - 1440px
+TV 1441px pra frente
+*/
+
 @media print {
+    body{
+        background-image: url(../imagens/back-print.jpg); /*desnecessario*/
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+    }
+    main > h1{
+         text-shadow: none;
+         color: black;
+    }
+    img#celular   {display: none;}
+    img#tablet    {display: none;}
+    img#impressao {display: block;}
+    img#pc        {display: none;}
+    img#tv        {display: none;}
     
-    
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px) {  
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+    img#celular   {display: none;}
+    img#tablet    {display: block;}
+    img#impressao {display: none;}
+    img#pc        {display: none;}
+    img#tv        {display: none;}
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#celular   {display: none;}
+    img#tablet    {display: none;}
+    img#impressao {display: none;}
+    img#pc        {display: block;}
+    img#tv        {display: none;}
+}
+
+@media screen and (min-width: 1300px){
+    body{
+        background-image: url(../imagens/back-tv.jpg)
+    }
+    img#celular   {display: none;}
+    img#tablet    {display: none;}
+    img#impressao {display: none;}
+    img#pc        {display: none;}
+    img#tv        {display: block;}
 }
