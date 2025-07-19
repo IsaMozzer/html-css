@@ -24,7 +24,7 @@
             <h1>Testando Media Queries</h1>
             
             <h2>O QUE SÃO MEDIA QUERIES?</h2> 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi libero ipsam, adipisci odit accusantium atque dicta in perferendis quidem deleniti quia ratione quis placeat maxime, officia vel, nesciunt similique aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis dolor rem aspernatur, odit a dolorem libero molestiae labore expedita dolore suscipit maiores deserunt, accusamus molestias optio soluta vero at. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ex vel aliquid id sapiente voluptas odio animi ipsum mollitia rerum culpa labore, dolore quas cum non doloribus ullam asperiores modi.</p>
+            <p>Media queries são recursos do CSS usados para adaptar o visual de um site de acordo com o tamanho e as características da tela em que ele está sendo exibido. Isso significa que, com media queries, é possível mudar o estilo de um site para que ele fique mais bonito, organizado e fácil de navegar em diferentes dispositivos, como celulares, tablets, computadores e até TVs. <br> Elas funcionam como uma “condição” que o navegador verifica: se a condição for verdadeira, o CSS que está dentro daquela media query será aplicado. Por exemplo, se uma media query estiver configurada para telas com no máximo 600 pixels de largura, as regras dentro dela só serão aplicadas em dispositivos pequenos, como celulares.</p>
             
             <h2>BREAKPOINTS MAIS USADOS</h2>
             <p>Os breakpoints são os tamanhos de tela que os desenvolvedores usam como referência para decidir quando mudar o layout do site com media queries. Eles são chamados assim porque representam o “ponto de corte” entre um tipo de dispositivo e outro. Os breakpoints mais comuns são:</p>
@@ -34,6 +34,11 @@
                 <strong>Entre 601px e 1024px:</strong> faixa usada para tablets. O layout precisa ser mais espaçado que no celular, mas ainda não tão largo quanto no computador.<br><br>
                 <strong>Acima de 1024px:</strong> telas de computadores (desktops e notebooks). Aqui o site geralmente mostra o layout completo, com todos os elementos visíveis.<br><br>
                 <strong>Acima de 1440px:</strong> telas maiores, como monitores grandes ou TVs. Pode ser usado para aumentar margens, fontes e espaçamentos, se necessário.
+            </p>
+            
+            <h2>COMO USAR MEDIA QUERIES NA PRÁTICA?</h2>
+            <p>Na prática, media queries são muito úteis para tornar o site “responsivo”, ou seja, capaz de se adaptar automaticamente ao tamanho da tela do usuário. Com elas, é possível reorganizar elementos do layout, mudar o tamanho de textos, esconder ou mostrar partes do conteúdo e até trocar imagens para versões menores (mais leves) em celulares. Por exemplo, um menu horizontal que aparece no topo do site no computador pode ser transformado em um menu hambúrguer (aquele ícone com três linhas) no celular, tudo isso controlado por media queries. Outro exemplo prático é deixar imagens menores no celular para carregar mais rápido e economizar dados. Para isso, o desenvolvedor escreve no CSS uma media query que diz: “se a tela tiver até 600px, aplique este conjunto de estilos”. E dentro desse bloco, ele define como os elementos devem se comportar nessa situação. Isso evita que o usuário precise dar zoom ou role muito para os lados em telas pequenas, deixando a navegação muito mais confortável.
+                
             </p>
         </article>
     </main>

@@ -21,6 +21,13 @@ header > h1{
     padding-bottom: 20px;
 }
 
+h2{
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.9em;
+}
 ul, li{
     
     margin:0px 10px 0px 5px;
@@ -38,6 +45,10 @@ p{
     margin-bottom: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 main{
     background-color: rgb(255, 255, 255);
     padding: 10px;
