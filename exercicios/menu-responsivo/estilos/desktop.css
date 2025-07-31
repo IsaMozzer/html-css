@@ -1,13 +1,24 @@
 @charset "UTF-8";
 /*css desktop*/
 
-@media (min-width: 768px) {
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
     main {
         max-width: 600px;
     }
 
     header > h1 {
         font-size: 40px;
+    }
+
+    header{
+    margin: 0px 0px 50px 0px;
+    padding-bottom: 10px;
+    background-color: rgb(215, 176, 255);
+    }
+
+    ul, li{
+    margin:0px 10px 0px 5px;
+    display: flex;
     }
 
     h2 {
@@ -24,4 +35,9 @@
 
     .breackpoints {
         margin: 0px 40px 0px 80px;
+
+    }
+    .material-icons{
+        display: none;
+    }   
 }
