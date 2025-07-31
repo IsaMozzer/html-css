@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*css desktop*/
+
+@media (min-width: 768px) {
+    main {
+        max-width: 600px;
+    }
+
+    header > h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .infospan {
+        font-size: 1em;
+    }
+
+    .breackpoints {
+        margin: 0px 40px 0px 80px;
+}
