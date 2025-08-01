@@ -37,7 +37,9 @@
         margin: 0px 40px 0px 80px;
 
     }
+
     .material-icons{
-        display: none;
+        display: none !important;
     }   
 }
+

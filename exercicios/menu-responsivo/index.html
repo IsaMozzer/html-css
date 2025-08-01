@@ -12,8 +12,8 @@
 <body>
     <header>
         <h1>MENU RESPONSIVO</h1>
-        <i class="material-icons">home</i>
-        <menu>
+        <i class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -54,5 +54,16 @@
             </p>
         </article>
     </main>
+
+    <script>
+       function clickMenu() {
+    if (itens.style.display === 'none') {
+        itens.style.display = 'block';
+    } else {
+        itens.style.display = 'none';
+    }   
+}
+    </script>
+
 </body>
 </html>
