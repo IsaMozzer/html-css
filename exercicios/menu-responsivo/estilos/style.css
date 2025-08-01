@@ -6,20 +6,21 @@
 }
 
 html, body{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(222, 179, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    margin: 0px 0px 50px 0px;
-    padding-bottom: 10px;
-    background-color: rgb(215, 176, 255);
+    background-color: rgb(184, 147, 221);
 }
 
 header > h1{
+    padding-top: 10px;
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
+    color: #61077e;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.438);;
 }
 
 menu{
@@ -28,6 +29,7 @@ menu{
 
 h2{
     font-size: 1em;
+    color: #161616;
 }
 
 p{
@@ -36,12 +38,12 @@ p{
 
 ul, li{
     text-align: center;
-    margin:0px 10px 2px 5px;
+    margin:0px 0px 1px 0px;
     display: column;
 }
 
 li{
-    background-color: blueviolet;
+    background-color: rgb(132, 73, 187);
     padding: 2px;
     border: 1px rgba(98, 3, 157, 0.322) solid;
     border-radius: 3px;
@@ -57,13 +59,13 @@ a{
 }
 
 main{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 234, 255);
     padding: 10px;
     max-width: 70vw;
     margin: auto;
     border: 1px solid white;
     border-radius: 15px;
-
+    margin-top: 18px;
 }
 
 span{
@@ -76,6 +78,7 @@ article > h1{
     padding-bottom: 7px;
     text-align: center;
     margin: 2px;
+    color:#8000B3;
 }
 
 .breackpoints{
@@ -88,6 +91,8 @@ article > h1{
 
 .breackpoints li {
   display: list-item !important; /* faz os itens agirem como lista normal */
+  text-align: justify;
+  text-align: left;
 }
 
 .infospan .titulo {
@@ -108,6 +113,7 @@ article > h1{
 i.material-icons{
     background-color: rgb(157, 0, 255);
     border: 2px solid rgb(173, 57, 246);
+    box-shadow: 0px 5px 3px rgba(124, 13, 152, 0.323);;
     color: white;
     border-radius: 2px;
     width: 100%;
@@ -121,6 +127,7 @@ i.material-icons:hover{
 }
 
 menu > ul > li:hover{
-    background-color: rgb(78, 22, 112); 
+    background-color: rgb(100, 43, 135); 
 }
 
+  
