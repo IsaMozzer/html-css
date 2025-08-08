@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+section{
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 90vh;
+    width: 90vw;
+}

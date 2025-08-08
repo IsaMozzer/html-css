@@ -1,0 +1,18 @@
+div.container{
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+
+div.item{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+
+} 
