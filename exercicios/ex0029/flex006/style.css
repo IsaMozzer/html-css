@@ -1,0 +1,15 @@
+div.container {
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+div.item {
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 100px; 
+}
