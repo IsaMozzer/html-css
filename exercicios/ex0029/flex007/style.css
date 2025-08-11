@@ -1,0 +1,35 @@
+div.container{
+    background-color: aqua;
+    display: flex;
+    width: 3000px;
+}
+
+div.item{
+    background-color: blueviolet;
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+div#i1{
+    order: -3;
+}
+
+div#i2{
+    order: 5;
+}
+div#i3{
+    order: -1;
+}
+
+div#i4{
+    order: 2;
+}
+
+div#i5{
+    order: 2;
+}
+div#i6{
+    order: 6;
+}
