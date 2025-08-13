@@ -7,20 +7,18 @@ div.item{
     background-color: blueviolet;
     border: 1px solid black;
     text-align: center;
-    flex-basis: 200px;
 }
 
 div#cA{
-    flex-grow: 1;
-    flex-shrink: 2;
+    flex: 1 1 100px;
 }
 
 div#cB{
-    flex-grow: 2;
-    flex-shrink: 2;
+    flex: 1 1 300px;
+
     
 }
 
 div#cC {
-    flex-grow: 4;
+    flex: 1 1 auto;
 }
