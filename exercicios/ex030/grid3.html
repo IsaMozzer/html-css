@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        div.container{
+            border: 3px solid blue;
+            display: grid;
+            grid-template-rows: repeat(3, 50px);
+            grid-template-columns: 100px 20% 1fr;
+            grid-auto-flow: column;
+            gap: 5px;
+            place-items: normal normal;
+            place-content: normal normal;
+            text-align: center;
+            grid-auto-rows: 50px;
+            grid-auto-columns: 50px;
+
+        }
+
+        div.item{
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+        <div class="item">i</div>
+
+    </div>
+</body>
+</html>
