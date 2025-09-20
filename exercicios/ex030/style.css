@@ -1,0 +1,45 @@
+.container{
+   display: grid;
+   grid-template: repeat(3, 100px) / repeat(4, 1fr);
+   border: 1px solid black;
+}
+
+.caixa1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;  
+    background-color: rgb(72, 109, 74);
+    color: beige;
+    text-align: center;
+}
+
+.caixa2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(101, 62, 138);
+    color: beige;
+    text-align: center;
+}
+
+.caixa3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: rgb(81, 81, 160);
+    color: beige;
+    text-align: center;
+}
+
+.caixa4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(169, 86, 86);
+    color: beige;
+    text-align: center;
+}
